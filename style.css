@@ -38,7 +38,7 @@ main{
 	padding-right: 20px;
 }
 #main-top{
-	height: 470px;
+	height: 400px;
 	margin-top: 40px;
 }
 #main-top div{
@@ -49,8 +49,9 @@ main{
 }
 #main-top-left h1{
 	font-size: 50px;
-	margin-top: 0;
 	text-align: center;
+	margin-top: 30px;
+	margin-left: 15px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 #main-top-right{
@@ -60,18 +61,20 @@ main{
 	width: 450px;
 	height: 280px;
 	float: right;
-	padding-right: 10px;
-	padding-top: 55px;
+	margin-right: 17px;
+	margin-top: 80px;
 	
 	
 }
 .logo{
 	width: 65px;
 	height: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 #main-bottom div{
 	border: 1px solid black;
-	background-color: #f78c22;
+	background-color: #ffd7a0;
 	margin-left: 18px;
 	margin-right: 7px;
 	margin-bottom: 20px;
@@ -88,18 +91,15 @@ main{
 	text-align: center;
 	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: italic;
-	border: 1px inset grey;
-	background-color: none;
-	margin-left: 10px;
-	margin-right: 10px;
+	float: left;
+	margin-left: 20px;
 	margin-bottom: 20px;
-	margin-top: 30px;
+	margin-top: 50px;
 	width: 450px;
 	display: inline-block; 
 }
 #main-top1{
-	height: 550px;
+	height: 540px;
 	margin-top: 40px;
 }
 #main-top-about{
@@ -112,13 +112,14 @@ main{
 }
 #main-center{
 	text-align: center;
-	padding-top: 30px;
+	margin-top: 20px;
 }
 #about-me{
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 10px;
+	margin-left: 27px;
+	margin-right: 27px;
 }
 .about-pic{
 	width: 450px;
@@ -126,7 +127,7 @@ main{
 	float: top;
 }
 #main-top2{
-	height: 700px;
+	height: 900px;
 margin-top: 40px;
 }
 #main-top2 h1{
@@ -134,24 +135,31 @@ margin-top: 40px;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 }
-#gls h2{
+#gls-p {
+	width: 450px;
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 20px;
+	
+}
+
+#gls-p h2{
 	font-size: 20px;
 	text-align: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 }
-#gls p{
-	float: left;
-	font-size: 18px;
-	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 10px;
-	padding-bottom: 10px;
-} 
+ 
 .gls-pic{
 	width: 400px;
 	height: 250px;
+	display: inline-block;
 	float: right;
-	clear: right;
+	margin-right: 35px;
+	margin-top: 20px;
+	
 }
 #lt-courses h2{
 	font-size: 20px;
@@ -159,45 +167,57 @@ margin-top: 40px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 }
-#lt-courses p{
+#lt-courses {
+	width: 450px;
+	display: inline-block;
 	float: left;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 10px;
-	padding-bottom: 10px;
-} 
+	margin-left: 20px;
+	margin-top: 70px;
+}
+ 
 .course-pic{
 	width: 400px;
 	height: 250px;
 	float: right;
+	margin-right: 35px;
+	margin-top: 20px;
 }
+
 #cmap h2{
 	font-size: 20px;
 	text-align: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 }
-#cmap p{
+#cmap {
+	width: 450px;
+	display: inline-block;
 	float: left;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-left: 20px;
+	margin-top: 60px;
 } 
 .cmap-pic{
-	width: 250px;
-	height: 250px;
+	width: 290px;
+	height: 290px;
 	float: right;
+	margin-right: 100px;
+	margin-top: 15px;
+	
+
 }
 #main-top3 {
-	height: 500px;
+	height: 350px;
 margin-top: 40px;
 }
 #contact {
 	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
-	padding-top: 15px;
+	margin-top: 30px;
 }
 #fb {
 	text-align: center;
@@ -222,5 +242,5 @@ footer {
 	font-weight: bold;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	background-color: #ffd7a0;
+	background-color: #fffbef;
 }
